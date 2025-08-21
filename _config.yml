@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Sangmin Lee"
 description              : &description "personal description"
 url                      : https://sanghyang00.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+# baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "sanghyang00/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Sangmin Lee"
   # pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  # bio              : "Luceat Lux Tua"
   location         : "Seoul, South Korea"
   employer         : "Yonsei University"
-  uri              : # URL/
+  # uri              : # URL/
   email            : "sangmin_lee@dsp.yonsei.ac.kr" 
 
   # Academic websites
@@ -59,7 +59,7 @@ author:
   # keybase          : # Username
   # instagram        : # Username
   # lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : https://github.com/sanghyang00
   # mastodon         : # URL
   # medium           : # URL
   # pinterest        : # Username
@@ -80,9 +80,11 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Papers'    
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
