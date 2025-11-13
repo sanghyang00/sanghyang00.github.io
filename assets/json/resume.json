@@ -1,0 +1,212 @@
+{
+  "basics": {
+    "name": "Sangmin Lee",
+    "label": "Deep Learning Researcher",
+    "image": "",
+    "email": "sangmin_lee@dsp.yonsei.ac.kr",
+    "phone": "",
+    "url": "https://sanghyang00.github.io",
+    "summary": "PhD candidate at Yonsei University specializing in multilingual speech signal processing and speech large language models. Experienced in massively multilngual speech and NLP with a strong publication record.",
+    "location": {
+      "city": "Seoul",
+      "countryCode": "KR",
+      "region": "South Korea"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Sangmin Lee",
+        "url": "https://scholar.google.com/citations?user=CrOm51AAAAAJ&hl"
+      },
+      {
+        "network": "GitHub",
+        "username": "sanghyang00",
+        "url": "https://github.com/sanghyang00"
+      },
+      {
+        "network": "Homepage",
+        "username": "sanghyang00.github.io",
+        "url": "https://sanghyang00.github.io"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Yonsei University",
+      "location": "Seoul, South Korea",
+      "url": "https://www.yonsei.ac.kr",
+      "area": "Electrical and Electronic Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2024-03-01",
+      "endDate": "2028-02-25 (expected)",
+      "score": "",
+      "courses": ["Advisor: Prof. Hong-Goo Kang"]
+    },
+    {
+      "institution": "Korea University",
+      "location": "Seoul, South Korea",
+      "url": "https://www.korea.ac.kr",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.S.",
+      "startDate": "2018-03-01",
+      "endDate": "2024-02-23",
+      "score": "",
+      "courses": ["GPA: 3.7 / 4.5"]
+    }
+  ],
+  "work": [
+    {
+      "name": "Yonsei University, DSP&AI Lab",
+      "position": "Teaching Assistant",
+      "url": "",
+      "startDate": "2024-03-01",
+      "endDate": "2025-02-01",
+      "summary": "Served as a Teaching Assistant for various undergraduate courses in the Department of Electrical and Electronic Engineering.",
+      "highlights": [
+        "EEE2060: Signals and Systems (Fall 2024)",
+        "EEE4610: Electrical and Electronic Engineering Capstone Design (Fall 2024)",
+        "EEE4420: Digital Signal Processing (Spring 2024)"
+      ]
+    },
+    {
+      "name": "Korea University, CV Lab",
+      "position": "Undergraduate Research Intern",
+      "url": "",
+      "startDate": "2023-08-01",
+      "endDate": "2023-12-31",
+      "summary": "Undergraduate Research Assistant in Speech-Driven 3D Facial Generation under the supervision of Prof. Seungryong Kim.",
+      "highlights": []
+    },
+    {
+      "name": "Neoforce Incorporation",
+      "position": "Full Stack Developer",
+      "url": "",
+      "startDate": "2021-10-26",
+      "endDate": "2022-02-28",
+      "summary": "Implemented 3D Medical Imaging Applications with Python.",
+      "highlights": []
+    }
+  ],
+  "international_publications": [
+    {
+      "name": "UniCoM: A Universal Code-Switching Speech Generator",
+      "publisher": "Findings of EMNLP 2025 (Poster)",
+      "releaseDate": "2025.09.01",
+      "url": "",
+      "summary": "Authors: *Sangmin Lee*, Woojin Chung, Seyun Um, and Hong-Goo Kang"
+    },
+    {
+      "name": "LAMA-UT: Language Agnostic Multilingual ASR Through Orthography Unification and Language-Specific Transliteration",
+      "publisher": "AAAI 2025 (Oral)",
+      "releaseDate": "2025.01.01",
+      "url": "",
+      "summary": "Authors: *Sangmin Lee*, Woojin Chung, and Hong-Goo Kang"
+    }
+  ],
+  "domestic_publications": [
+    {
+      "name": "AEGIS: Awareness-Enhanced Guidance for Iterative Safeguard",
+      "publisher": "To be appear",
+      "releaseDate": "2025.12.01",
+      "url": "",
+      "summary": "Authors: Kyungwon Park, *Sangmin Lee*, Heejae Chon, and Hyungu Kang"
+    },
+    {
+      "name": "UniverSR: Unified and Versatile Audio Super-Resolution via Vocoder-Free Flow Matching",
+      "publisher": "arXiv 2025",
+      "releaseDate": "2025.10.01",
+      "url": "",
+      "summary": "Authors: Woongjib Choi, *Sangmin Lee*, Hyeongseob Lim, and Hong-Goo Kang"
+    },
+    {
+      "name": "SAGE-LD: Towards Scalable and Generalizable End-to-End Language Diarization via Simulated Data Augmentation",
+      "publisher": "arXiv 2025",
+      "releaseDate": "2025.10.01",
+      "url": "",
+      "summary": "Authors: *Sangmin Lee*, Woongjib Choi, Jihyun Kim, and Hong-Goo Kang"
+    },
+    {
+      "name": "Talk3d: High-fidelity talking portrait synthesis via personalized 3d generative prior",
+      "publisher": "arXiv 2024",
+      "releaseDate": "2024.10.01",
+      "url": "",
+      "summary": "Authors: Jaehoon Ko, Kyusun Cho, Joungbin Lee, Heeji Yoon, *Sangmin Lee*, Sangjun Ahn, and Seungryong Kim"
+    }
+  ],
+  "projects": [
+      {
+        "name": "Music Genre Classifier & Recommendation System Project",
+        "summary": "Developed a model that classifies music genres and recommends songs based on metadata information.",
+        "highlights": ["Conducted as a team project under Korea University AI Club (AIKU)"],
+        "startDate": "2023-03-01",
+        "endDate": "2023-06-01",
+        "url": ""
+      },
+      {
+        "name": "Music Rating Archive Web Project",
+        "summary": "Built a web application to organize and view music metadata along with personal ratings.",
+        "highlights": ["Completed as an assignment for the undergraduate Database course (COSE37102)"],
+        "startDate": "2023-05-01",
+        "endDate": "2023-06-01",
+        "url": ""
+      },
+      {
+        "name": "Time Series Sensor Data Anomaly Detection using LSTM AutoEncoder",
+        "summary": "Developed a model to predict errors in factory processes using sensor data.",
+        "highlights": ["Performed as a commissioned project for an acquaintance"],
+        "startDate": "2023-06-01",
+        "endDate": "2023-07-01",
+        "url": ""
+      },
+      {
+        "name": "AI Lyricist Project",
+        "summary": "Created a model that generates appropriate lyrics from music waveforms.",
+        "highlights": ["Conducted as a team project under Korea University AI Club (AIKU)"],
+        "startDate": "2023-07-01",
+        "endDate": "2023-08-01",
+        "url": ""
+      },
+      {
+        "name": "2023 Korean AI Contest Track 1 (Speech Recognition)",
+        "summary": "Developed a Korean speech recognition system specialized for regional dialects, elderly, and children.",
+        "highlights": ["Ranked 7th out of 302 teams (Team AIKUDIO)"],
+        "startDate": "2023-09-01",
+        "endDate": "2023-11-01",
+        "url": ""
+      }
+  ],
+  "awards": [
+      {
+        "title": "National Information Society Agency Prize",
+        "date": "2023-11-13",
+        "awarder": "President of NIA",
+        "summary": "Awarded for outstanding performance as the 7th place team in the 2023 Korean AI Contest Track 1."
+      }
+  ],
+  "extracurricular_activities": [
+    {
+      "organization": "Yonsei AI Club, Yonsei University",
+      "location": "Seoul, South Korea",
+      "position": "Member (and Leader of the Academic Study)",
+      "startDate": "2024-01-01",
+      "endDate": "present",
+      "summary": ""
+    },
+    {
+      "organization": "AI in Korea University (AIKU), Korea University",
+      "location": "Seoul, South Korea",
+      "position": "Member",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "summary": ""
+    },
+    {
+      "organization": "Republic of Korea Army",
+      "location": "Incheon, South Korea",
+      "position": "Sergeant, Repair Parts and Tool Supply Specialist",
+      "startDate": "2020-04-01",
+      "endDate": "2021-10-01",
+      "summary": "Completed mandatory military service."
+    }
+  ]
+}
