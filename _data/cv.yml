@@ -1,0 +1,84 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Woongjib Choi
+    - name: Date of Birth
+      value: [Your Birth Date]
+    - name: Languages
+      value: English, Korean
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Assistant - Machine Learning
+      institution: Yonsei University, Seoul, South Korea
+      year: 2022 - Present
+      description:
+        - Assisted in teaching undergraduate Machine Learning course
+        - Graded assignments and provided office hours
+        - Developed course materials and lab exercises
+    - title: Teaching Assistant - Data Structures
+      institution: Yonsei University, Seoul, South Korea
+      year: 2021 - 2022
+      description:
+        - Helped students with programming assignments
+        - Conducted lab sessions and tutorials
+        - Provided one-on-one tutoring for struggling students
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Yonsei University, Seoul, South Korea
+      year: 2020 - Present
+      description:
+        - Conducting research in Natural Language Processing
+        - Developing novel machine learning algorithms
+        - Collaborating with industry partners on AI projects
+    - title: Graduate Research Intern
+      institution: [Company/Institution Name]
+      year: 2021 - 2022
+      description:
+        - Worked on deep learning model optimization
+        - Contributed to research paper publications
+        - Presented findings at international conferences
+
+- title: Awards and Honors
+  type: time_table
+  contents:
+    - title: Best Paper Award
+      institution: International Conference on Machine Learning
+      year: 2023
+      description: Awarded for outstanding contribution to NLP research
+    - title: Graduate Research Fellowship
+      institution: Yonsei University
+      year: 2020 - Present
+      description: Full tuition scholarship for PhD studies
+    - title: Dean's List
+      institution: Yonsei University
+      year: 2018 - 2020
+      description: Academic excellence recognition
+
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Programming Languages
+      items:
+        - Python, Java, C++, JavaScript
+        - R, MATLAB, SQL
+    - title: Machine Learning Frameworks
+      items:
+        - TensorFlow, PyTorch, Scikit-learn
+        - Keras, Hugging Face Transformers
+    - title: Tools and Technologies
+      items:
+        - Git, Docker, AWS, Linux
+        - Jupyter, LaTeX, Tableau
+
+- title: Languages
+  type: list
+  contents:
+    - <u>Korean:</u> Native
+    - <u>English:</u> Fluent (TOEFL 110+)
+    - <u>Japanese:</u> Conversational

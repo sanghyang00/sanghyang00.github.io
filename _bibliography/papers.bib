@@ -1,0 +1,103 @@
+@unpublished{park2025aegis,
+  abbr      = {Preprint},
+  title     = {{AEGIS: Awareness-Enhanced Guidance for Iterative Safeguard}},
+  author    = {Kyungwon Park and Sangmin Lee and Heejae Chon and Hyungu Kang},
+  year      = {2025},
+  note      = {Under Review},
+  abstract  = {Existing detoxification approaches often operate at the sentence level with coarse binary labels, which overlook subtle toxic spans, cause excessive sanitization of benign text, and lead to semantic distortion. 
+  To address this limitation, we introduce AEGIS, a framework for fine-grained detection and mitigation of harmful expressions. AEGIS comprises two cascaded modules: a detector and a generator. 
+  The detector identifies span-level rationales, which serve as structured control signals for rationale-guided text rewriting. 
+  In addition, we propose an intensity- and target-aware BIO tagging scheme that jointly captures span boundaries, toxicity severity, and targeted groups.
+  The generator then leverages span- and attribute-conditioned prompts and integrates a reflection-based critic loop to iteratively refine the outputs until toxicity is reduced without compromising meaning or fluency.
+  Experimental results demonstrate that AEGIS achieves superior toxicity reduction, semantic preservation, and cross-lingual robustness compared to existing methods. 
+  We believe that this framework provides a promising foundation for building safer and more controllable language models.},
+  link      = {},
+  selected  = {false},
+}
+
+
+@unpublished{choi2025universr,
+  abbr      = {Preprint},
+  title     = {{UniverSR: Unified and Versatile Audio Super-Resolution via Vocoder-Free Flow Matching}},
+  author    = {Woongjib Choi and Sangmin Lee and Hyungseob Lim and Hong-Goo Kang},
+  year      = {2025},
+  note      = {Under Review},
+  abstract  = {In this paper, we present a vocoder-free framework for audio super-resolution that employs a flow matching generative model to capture the conditional distribution of complex-valued spectral coefficients. 
+  Unlike conventional two-stage diffusion-based approaches that predict a mel-spectrogram and then rely on a pre-trained neural vocoder to synthesize waveforms, 
+  our method directly reconstructs waveforms via the inverse Short-Time Fourier Transform (iSTFT), thereby eliminating the dependence on a separate vocoder. 
+  This design not only simplifies end-to-end optimization but also overcomes a critical bottleneck of two-stage pipelines, where the final audio quality is fundamentally constrained by vocoder performance. 
+  Experiments show that our model consistently produces high-fidelity 48 kHz audio across diverse upsampling factors, achieving state-of-the-art performance on both speech and general audio datasets.},
+  link      = {https://arxiv.org/abs/2510.00771},
+  selected  = {false},
+}
+
+
+@unpublished{lee2025sageld,
+  abbr      = {Preprint},
+  title     = {{SAGE-LD: Towards Scalable and Generalizable End-to-End Language Diarization via Simulated Data Augmentation}},
+  author    = {Sangmin Lee and Woongjib Choi and Jihyun Kim and Hong-Goo Kang},
+  year      = {2025},
+  note      = {Under Review},
+  abstract  = {In this paper, we present a neural spoken language diarization model that supports an unconstrained span of languages within a single framework. 
+  Our approach integrates a learnable query-based architecture grounded in multilingual awareness, with large-scale pretraining on simulated code-switching data. 
+  By jointly leveraging these two components, our method overcomes the limitations of conventional approaches in data scarcity and architecture optimization, 
+  and generalizes effectively to real-world multilingual settings across diverse environments. 
+  Experimental results demonstrate that our approach achieves state-of-the-art performance on several language diarization benchmarks, with a relative performance improvement of 23% to 52% over previous methods. 
+  We believe that this work not only advances research in language diarization but also establishes a foundational framework for code-switching speech technologies.},
+  link      = {https://www.arxiv.org/abs/2510.00582},
+  selected  = {true},
+}
+
+@inproceedings{lee2025unicom,
+  abbr      = {EMNLP},
+  title     = {{UniCoM: A Universal Code-Switching Speech Generator}},
+  author    = {Sangmin Lee and Woojin Chung and Seyun Um and Hong-Goo Kang},
+  year      = {2025},
+  note      = {Accepted to Findings of EMNLP 2025},
+  abstract  = {Code-switching (CS), the alternation between two or more languages within a single speaker's utterances, is common in real-world conversations and poses significant challenges for multilingual speech technology. 
+  However, systems capable of handling this phenomenon remain underexplored, primarily due to the scarcity of suitable datasets. To resolve this issue, we propose Universal Code-Mixer (UniCoM), 
+  a novel pipeline for generating high-quality, natural CS samples without altering sentence semantics. Our approach utilizes an algorithm we call Substituting WORDs with Synonyms (SWORDS), 
+  which generates CS speech by replacing selected words with their translations while considering their parts of speech. Using UniCoM, we construct Code-Switching FLEURS (CS-FLEURS), 
+  a multilingual CS corpus designed for automatic speech recognition (ASR) and speech-to-text translation (S2TT). Experimental results show that CS-FLEURS achieves high intelligibility and naturalness, 
+  performing comparably to existing datasets on both objective and subjective metrics. We expect our approach to advance CS speech technology and enable more inclusive multilingual systems.},
+  link      = {https://arxiv.org/abs/2508.15244},
+  selected  = {true},
+}
+
+@inproceedings{lee2025lamaut,
+  abbr      = {AAAI},
+  title     = {{LAMA-UT: Language Agnostic Multilingual ASR through Orthography Unification and Language-Specific Transliteration}},
+  author    = {Sangmin Lee and Woojin Chung and Hong-Goo Kang},
+  year      = {2025},
+  note      = {Accepted to AAAI 2025 as oral presentation (Top 4.6% of the total submissions)},
+  abstract  = {Building a universal multilingual automatic speech recognition (ASR) model that performs equitably across languages has long been a challenge due to its inherent difficulties. 
+  To address this task we introduce a Language-Agnostic Multilingual ASR pipeline through orthography Unification and language-specific Transliteration (LAMA-UT). 
+  LAMA-UT operates without any language-specific modules while matching the performance of state-of-the-art models trained on a minimal amount of data. Our pipeline consists of two key steps. 
+  First, we utilize a universal transcription generator to unify orthographic features into Romanized form and capture common phonetic characteristics across diverse languages. 
+  Second, we utilize a universal converter to transform these universal transcriptions into language-specific ones. 
+  In experiments, we demonstrate the effectiveness of our proposed method leveraging universal transcriptions for massively multilingual ASR. 
+  Our pipeline achieves a relative error reduction rate of 45% when compared to Whisper and performs comparably to MMS, despite being trained on only 0.1% of Whisper's training data. 
+  Furthermore, our pipeline does not rely on any language-specific modules. However, it performs on par with zero-shot ASR approaches which utilize additional language-specific lexicons and language models. 
+  We expect this framework to serve as a cornerstone for flexible multilingual ASR systems that are generalizable even to unseen languages.},
+  link       = {https://arxiv.org/abs/2412.15299},
+  selected   = {true},
+}
+
+@unpublished{ko2024talk3d,
+  abbr      = {Preprint},
+  title     = {{Talk3d: High-fidelity talking portrait synthesis via personalized 3d generative prior}},
+  author    = {Jaehoon Ko and Kyusun Cho and Joungbin Lee and Heeji Yoon and Sangmin Lee and Sangjun Ahn and Seungryong Kim},
+  year      = {2024},
+  note      = {ArXiv publication},
+  abstract  = {Recent methods for audio-driven talking head synthesis often optimize neural radiance fields (NeRF) on a monocular talking portrait video, 
+  leveraging its capability to render high-fidelity and 3D-consistent novel-view frames. 
+  However, they often struggle to reconstruct complete face geometry due to the absence of comprehensive 3D information in the input monocular videos. 
+  In this paper, we introduce a novel audio-driven talking head synthesis framework, called Talk3D, 
+  that can faithfully reconstruct its plausible facial geometries by effectively adopting the pre-trained 3D-aware generative prior. 
+  Given the personalized 3D generative model, we present a novel audio-guided attention U-Net architecture that predicts the dynamic face variations in the NeRF space driven by audio. 
+  Furthermore, our model is further modulated by audio-unrelated conditioning tokens which effectively disentangle variations unrelated to audio features. Compared to existing methods, 
+  our method excels in generating realistic facial geometries even under extreme head poses. 
+  We also conduct extensive experiments showing our approach surpasses state-of-the-art benchmarks in terms of both quantitative and qualitative evaluations.},
+  link       = {https://arxiv.org/abs/2403.20153},
+  selected   = {False},
+}

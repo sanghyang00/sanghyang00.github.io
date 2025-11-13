@@ -1,0 +1,58 @@
+"TASLP":
+  url: https://dl.acm.org/journal/taslp :contentReference[oaicite:0]{index=0}
+  color: "#1E90FF"   # Dodger Blue
+
+"JSTSP":
+  url: https://signalprocessingsociety.org/publications-resources/ieee-journal-selected-topics-signal-processing :contentReference[oaicite:1]{index=1}
+  color: "#FF8C00"   # Dark Orange
+
+"NeurIPS":
+  url: https://neurips.cc/ :contentReference[oaicite:2]{index=2}
+  color: "#8A2BE2"   # Blue Violet
+
+"ICLR":
+  url: https://iclr.cc/ :contentReference[oaicite:3]{index=3}
+  color: "#00CED1"   # Dark Turquoise
+
+"ICML":
+  url: https://www.icml.cc/ :contentReference[oaicite:4]{index=4}
+  color: "#FF1493"   # Deep Pink
+
+"AAAI":
+  url: https://www.aaai.org/conference/aaai/ :contentReference[oaicite:5]{index=5}
+  color: "#228B22"   # Forest Green
+
+"ACL":
+  url: https://www.aclweb.org/portal/acl :contentReference[oaicite:6]{index=6}
+  color: "#DC143C"   # Crimson
+
+"EMNLP":
+  url: https://2025.emnlp.org/ :contentReference[oaicite:7]{index=7}
+  color: "#00BFFF"   # Deep Sky Blue
+
+"NAACL":
+  url: https://naacl.org/ :contentReference[oaicite:8]{index=8}
+  color: "#FF4500"   # Orange Red
+
+"CVPR":
+  url: https://cvpr.thecvf.com/ :contentReference[oaicite:9]{index=9}
+  color: "#4169E1"   # Royal Blue
+
+"ECCV":
+  url: https://eccv.ecva.net/ :contentReference[oaicite:10]{index=10}
+  color: "#B22222"   # Firebrick
+
+"ICCV":
+  url: https://iccv.thecvf.com/ :contentReference[oaicite:11]{index=11}
+  color: "#20B2AA"   # Light Sea Green
+
+"INTERSPEECH":
+  url: https://www.isca-speech.org/ :contentReference[oaicite:12]{index=12}
+  color: "#5F4B8B"   # Deep Purple/Violet
+
+"ICASSP":
+  url: https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings :contentReference[oaicite:13]{index=13}
+  color: "#00629B"   # IEEE Blue
+
+"Preprint":
+  color: "#6c757d"   # Neutral Gray
