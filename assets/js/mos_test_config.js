@@ -1,0 +1,1 @@
+window.MOS_TEST_CONFIG={googleScriptUrl:"https://script.google.com/macros/s/AKfycbwR-YYnA6MEUYXNOMFu3rcKcshJ4Y8qyP3dXt5zb2iwKndYUe8_Ef2StvxJZPaa6wx1/exec",groups:["A","B","C","D"],audioBase:"/assets/audio/mos_samples"};
