@@ -1,33 +1,76 @@
-@unpublished{park2025aegis,
+@inproceedings{lee2026molge,
+  abbr      = {COLM},
+  title     = {{MoLGE: Mixture of Language Group Experts for Efficient Scaling of Massively Multilingual Speech Recognition}},
+  author    = {Sangmin Lee and Woojin Chung and Woongjib Choi and Hong-Goo Kang},
+  year      = {2026},
+  note      = {Accepted to COLM 2026},
+  abstract  = {Massively multilingual automatic speech recognition (ASR) models covering hundreds of languages must maintain robust performance across diverse linguistic and acoustic conditions. 
+  However, these models often encounter the curse of multilinguality, where model capacity is diluted across languages. 
+  To address this challenge, we propose Mixture of Language Group Experts (MoLGE), built upon speech self-supervised models (S3Ms). 
+  MoLGE assigns dedicated expert modules to clusters of similar languages, reducing the number of required submodules compared to conventional language-specific Mixture-of-Experts (MoE) schemes. 
+  It further integrates a hierarchical Low-Rank Adaptation (LoRA) strategy into the disentangled acoustic and linguistic components of the S3M architecture, enabling efficient modeling of language-specific characteristics while maintaining parameter efficiency. 
+  Further, we investigate the impact of language grouping strategies based on both linguistic and data-driven criteria on overall performance, providing an interpretable perspective on how language structure influences scalability in multilingual speech systems. 
+  In experiments, we evaluate MoLGE on a multilingual benchmark encompassing 495 languages. 
+  Results demonstrate that MoLGE consistently outperforms dense multilingual baselines with a minimal increase in trainable parameters. 
+  Notably, these language grouping strategies yield substantial improvements for both phonetic and orthographic aspects of ASR modeling. 
+  Our findings suggest that structured language specialization provides an effective pathway for massively scaling language coverage of multilingual ASR.},
+  arxiv     = {https://arxiv.org/abs/2607.24030},
+  github    = {https://github.com/sanghyang00/molge},
+  dataset   = {https://huggingface.co/datasets/Sanghyang00/omniasr-molge},
+  model     = {https://huggingface.co/Sanghyang00/molge-checkpoints},
+  selected  = {true},
+}
+
+@unpublished{park2026aegis,
   abbr      = {Preprint},
   title     = {{AEGIS: Awareness-Enhanced Guidance for Iterative Safeguard}},
   author    = {Kyungwon Park and Sangmin Lee and Heejae Chon and Hyungu Kang},
-  year      = {2025},
-  note      = {Under Review},
-  abstract  = {Existing detoxification approaches often operate at the sentence level with coarse binary labels, which overlook subtle toxic spans, cause excessive sanitization of benign text, and lead to semantic distortion. 
-  To address this limitation, we introduce AEGIS, a framework for fine-grained detection and mitigation of harmful expressions. AEGIS comprises two cascaded modules: a detector and a generator. 
-  The detector identifies span-level rationales, which serve as structured control signals for rationale-guided text rewriting. 
-  In addition, we propose an intensity- and target-aware BIO tagging scheme that jointly captures span boundaries, toxicity severity, and targeted groups.
-  The generator then leverages span- and attribute-conditioned prompts and integrates a reflection-based critic loop to iteratively refine the outputs until toxicity is reduced without compromising meaning or fluency.
-  Experimental results demonstrate that AEGIS achieves superior toxicity reduction, semantic preservation, and cross-lingual robustness compared to existing methods. 
-  We believe that this framework provides a promising foundation for building safer and more controllable language models.},
-  link      = {},
+  year      = {2026},
+  note      = {arXiv Preprint},
+  abstract  = {Span-level rationales are often assumed to improve controllability in text detoxification, but it remains unclear when such guidance helps and when it introduces trade-offs. 
+  We present Awareness-Enhanced Guidance for Iterative Safeguard (AEGIS) as an exploratory framework for studying span-guided multilingual detoxification across English, Mandarin Chinese, and Korean. 
+  AEGIS combines span-level detector outputs with frozen generator backbones, allowing harmful spans, intensity labels, and target attributes to be provided as structured guidance during rewriting. 
+  Rather than claiming state-of-the-art detoxification performance, we analyze how span guidance affects the balance between toxicity reduction and meaning preservation across generator families, model scales, and languages. 
+  Our results suggest that span-guided detoxification is conditionally useful: explicit rationales change the trade-off between toxicity reduction and meaning preservation, but their effects depend strongly on the generator backbone and the linguistic context. 
+  These findings highlight both the promise and the limitations of span-level control signals for multilingual detoxification.},
+  arxiv     = {https://arxiv.org/abs/2607.17713},
+  github    = {},
   selected  = {false},
 }
 
+@inproceedings{lee2026urbert,
+  abbr      = {Interspeech},
+  title     = {{UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction}},
+  author    = {Sangmin Lee and Eekgyun Ahn and Woongjib Choi and Hong-Goo Kang},
+  year      = {2026},
+  note      = {Accepted to Interspeech 2026},
+  abstract  = {We propose UR-BERT, a Romanized transcription-based text-to-speech (TTS) encoder for massively multilingual TTS systems. 
+  Conventional grapheme-to-phoneme (G2P)-based approaches are limited to around 100 languages due to the availability of reliable G2P resources. 
+  In contrast, UR-BERT scales to 495 languages by unifying diverse writing systems into a shared Romanization representation.
+  To further enhance phonetic fidelity and text–speech alignment, we introduce a speech token prediction objective during training, 
+  which encourages the encoder to learn speech-aware phonetic representations in a data-efficient manner.
+  Experiments show that TTS systems built on UR-BERT consistently outperform recent text encoder baselines across a wide range of languages and resource conditions, and demonstrate strong generalization to unseen languages.},
+  arxiv     = {https://arxiv.org/abs/2606.11681},
+  github    = {https://github.com/sanghyang00/ur-bert},
+  dataset   = {https://huggingface.co/datasets/Sanghyang00/omniasr-molge},
+  model     = {https://huggingface.co/Sanghyang00/urbert-256},
+  selected  = {true},
+}
 
-@unpublished{choi2025universr,
-  abbr      = {Preprint},
+@inproceedings{choi2026universr,
+  abbr      = {ICASSP},
   title     = {{UniverSR: Unified and Versatile Audio Super-Resolution via Vocoder-Free Flow Matching}},
   author    = {Woongjib Choi and Sangmin Lee and Hyungseob Lim and Hong-Goo Kang},
-  year      = {2025},
-  note      = {Under Review},
+  year      = {2026},
+  note      = {Accepted to ICASSP 2026},
   abstract  = {In this paper, we present a vocoder-free framework for audio super-resolution that employs a flow matching generative model to capture the conditional distribution of complex-valued spectral coefficients. 
   Unlike conventional two-stage diffusion-based approaches that predict a mel-spectrogram and then rely on a pre-trained neural vocoder to synthesize waveforms, 
   our method directly reconstructs waveforms via the inverse Short-Time Fourier Transform (iSTFT), thereby eliminating the dependence on a separate vocoder. 
   This design not only simplifies end-to-end optimization but also overcomes a critical bottleneck of two-stage pipelines, where the final audio quality is fundamentally constrained by vocoder performance. 
   Experiments show that our model consistently produces high-fidelity 48 kHz audio across diverse upsampling factors, achieving state-of-the-art performance on both speech and general audio datasets.},
-  link      = {https://arxiv.org/abs/2510.00771},
+  arxiv     = {https://arxiv.org/abs/2510.00771},
+  github    = {https://github.com/woongzip1/UniverSR},
+  model     = {https://huggingface.co/woongzip1/universr-audio},
   selected  = {false},
 }
 
@@ -37,14 +80,15 @@
   title     = {{SAGE-LD: Towards Scalable and Generalizable End-to-End Language Diarization via Simulated Data Augmentation}},
   author    = {Sangmin Lee and Woongjib Choi and Jihyun Kim and Hong-Goo Kang},
   year      = {2025},
-  note      = {Under Review},
+  note      = {arXiv Preprint},
   abstract  = {In this paper, we present a neural spoken language diarization model that supports an unconstrained span of languages within a single framework. 
   Our approach integrates a learnable query-based architecture grounded in multilingual awareness, with large-scale pretraining on simulated code-switching data. 
   By jointly leveraging these two components, our method overcomes the limitations of conventional approaches in data scarcity and architecture optimization, 
   and generalizes effectively to real-world multilingual settings across diverse environments. 
   Experimental results demonstrate that our approach achieves state-of-the-art performance on several language diarization benchmarks, with a relative performance improvement of 23% to 52% over previous methods. 
   We believe that this work not only advances research in language diarization but also establishes a foundational framework for code-switching speech technologies.},
-  link      = {https://www.arxiv.org/abs/2510.00582},
+  arxiv     = {https://www.arxiv.org/abs/2510.00582},
+  github    = {https://github.com/sanghyang00/sage-ld},
   selected  = {true},
 }
 
@@ -60,7 +104,8 @@
   which generates CS speech by replacing selected words with their translations while considering their parts of speech. Using UniCoM, we construct Code-Switching FLEURS (CS-FLEURS), 
   a multilingual CS corpus designed for automatic speech recognition (ASR) and speech-to-text translation (S2TT). Experimental results show that CS-FLEURS achieves high intelligibility and naturalness, 
   performing comparably to existing datasets on both objective and subjective metrics. We expect our approach to advance CS speech technology and enable more inclusive multilingual systems.},
-  link      = {https://arxiv.org/abs/2508.15244},
+  arxiv     = {https://arxiv.org/abs/2508.15244},
+  github    = {https://github.com/sanghyang00/unicom},
   selected  = {true},
 }
 
@@ -69,7 +114,7 @@
   title     = {{LAMA-UT: Language Agnostic Multilingual ASR through Orthography Unification and Language-Specific Transliteration}},
   author    = {Sangmin Lee and Woojin Chung and Hong-Goo Kang},
   year      = {2025},
-  note      = {Accepted to AAAI 2025 as oral presentation (Top 4.6% of the total submissions)},
+  note      = {Accepted to AAAI 2025 <span style="color:#e63946; font-weight:700;">(Oral Presentation, Top 4.6%)</span>},
   abstract  = {Building a universal multilingual automatic speech recognition (ASR) model that performs equitably across languages has long been a challenge due to its inherent difficulties. 
   To address this task we introduce a Language-Agnostic Multilingual ASR pipeline through orthography Unification and language-specific Transliteration (LAMA-UT). 
   LAMA-UT operates without any language-specific modules while matching the performance of state-of-the-art models trained on a minimal amount of data. Our pipeline consists of two key steps. 
@@ -79,7 +124,8 @@
   Our pipeline achieves a relative error reduction rate of 45% when compared to Whisper and performs comparably to MMS, despite being trained on only 0.1% of Whisper's training data. 
   Furthermore, our pipeline does not rely on any language-specific modules. However, it performs on par with zero-shot ASR approaches which utilize additional language-specific lexicons and language models. 
   We expect this framework to serve as a cornerstone for flexible multilingual ASR systems that are generalizable even to unseen languages.},
-  link       = {https://arxiv.org/abs/2412.15299},
+  arxiv      = {https://arxiv.org/abs/2412.15299},
+  github     = {https://github.com/sanghyang00/lama-ut},
   selected   = {true},
 }
 
@@ -88,7 +134,7 @@
   title     = {{Talk3d: High-fidelity talking portrait synthesis via personalized 3d generative prior}},
   author    = {Jaehoon Ko and Kyusun Cho and Joungbin Lee and Heeji Yoon and Sangmin Lee and Sangjun Ahn and Seungryong Kim},
   year      = {2024},
-  note      = {ArXiv publication},
+  note      = {arXiv Preprint},
   abstract  = {Recent methods for audio-driven talking head synthesis often optimize neural radiance fields (NeRF) on a monocular talking portrait video, 
   leveraging its capability to render high-fidelity and 3D-consistent novel-view frames. 
   However, they often struggle to reconstruct complete face geometry due to the absence of comprehensive 3D information in the input monocular videos. 
@@ -98,6 +144,7 @@
   Furthermore, our model is further modulated by audio-unrelated conditioning tokens which effectively disentangle variations unrelated to audio features. Compared to existing methods, 
   our method excels in generating realistic facial geometries even under extreme head poses. 
   We also conduct extensive experiments showing our approach surpasses state-of-the-art benchmarks in terms of both quantitative and qualitative evaluations.},
-  link       = {https://arxiv.org/abs/2403.20153},
+  arxiv      = {https://arxiv.org/abs/2403.20153},
+  github     = {https://github.com/cvlab-kaist/Talk3D},
   selected   = {False},
 }

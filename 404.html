@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found · Sangmin Lee</title>
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var dark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.setAttribute("data-theme", "dark");
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,560;1,6..72,400&family=Outfit:wght@400;500;560&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="shell">
+    <aside class="rail">
+      <p class="rail-name"><a href="/">Sangmin Lee</a></p>
+      <p class="rail-role">Ph.D. candidate<br>Yonsei University</p>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">About</a>
+        <a href="/publications/">Publications</a>
+        <a href="/more-about-me/">More About Me</a>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle">Dark mode</button>
+      <div class="rail-links">
+        <a href="mailto:sangmin_lee@dsp.yonsei.ac.kr">Email</a>
+        <a href="https://github.com/sanghyang00">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=CrOm51AAAAAJ">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/sanghyang00">LinkedIn</a>
+        <a href="/assets/pdf/CV_Sangmin.pdf">CV</a>
+      </div>
+    </aside>
+    <main id="content">
+      <p class="kicker">404</p>
+      <h1>This page is not here.</h1>
+      <p class="lede"><a href="/">Back to the homepage.</a></p>
+    </main>
+  </div>
+  <script src="/js/site.js"></script>
+</body>
+</html>

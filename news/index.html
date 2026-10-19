@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News · Sangmin Lee</title>
+  <meta name="description" content="News and announcements from Sangmin Lee.">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem("theme");
+        var dark = stored ? stored === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        if (dark) document.documentElement.setAttribute("data-theme", "dark");
+      } catch (error) {}
+    })();
+  </script>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,560;1,6..72,400&family=Outfit:wght@400;500;560&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <div class="shell">
+    <aside class="rail">
+      <p class="rail-name"><a href="/">Sangmin Lee</a></p>
+      <p class="rail-role">Ph.D. candidate<br>Yonsei University</p>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">About</a>
+        <a href="/publications/">Publications</a>
+        <a href="/more-about-me/">More About Me</a>
+      </nav>
+      <button type="button" class="theme-toggle" id="theme-toggle">Dark mode</button>
+      <div class="rail-links">
+        <a href="mailto:sangmin_lee@dsp.yonsei.ac.kr">Email</a>
+        <a href="https://github.com/sanghyang00">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=CrOm51AAAAAJ">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/sanghyang00">LinkedIn</a>
+        <a href="/assets/pdf/CV_Sangmin.pdf">CV</a>
+      </div>
+    </aside>
+
+    <main id="content">
+      <header class="page-intro">
+        <p class="kicker">Updates</p>
+        <h1>News</h1>
+      </header>
+      <ul class="news">
+        <li>
+          <time datetime="2026-07-09">Jul 09, 2026</time>
+          <p>📝 <strong>MoLGE</strong> has been accepted to <strong>COLM 2026</strong>!</p>
+        </li>
+        <li>
+          <time datetime="2026-07-06">Jul 06, 2026</time>
+          <p>✨ Attended <strong>ICML 2026</strong> in Seoul, engaging with leading researchers and gaining valuable insights into pioneering advancements and future directions of the community.</p>
+        </li>
+        <li>
+          <time datetime="2026-06-05">Jun 05, 2026</time>
+          <p>📝 <strong>UR-BERT</strong> has been accepted to <strong>Interspeech 2026</strong>!</p>
+        </li>
+        <li>
+          <time datetime="2026-01-18">Jan 18, 2026</time>
+          <p>📝 <strong>UniverSR</strong> has been accepted to <strong>ICASSP 2026</strong>!</p>
+        </li>
+        <li>
+          <time datetime="2025-11-10">Nov 10, 2025</time>
+          <p>🎤 I presented our paper, “<a href="https://arxiv.org/abs/2508.15244">UniCoM: A Universal Code-Switching Speech Generator</a>”, at <strong>EMNLP 2025</strong> in Suzhou, China. It was a tremendous honor to deliver my presentation, and I’m truly grateful for the opportunity to share our work with such an inspiring community! ✨🙌</p>
+        </li>
+        <li>
+          <time datetime="2025-08-21">Aug 21, 2025</time>
+          <p>📝 <strong>UniCoM</strong> has been accepted to <strong>Findings of EMNLP 2025</strong>!</p>
+        </li>
+        <li>
+          <time datetime="2025-02-27">Feb 27, 2025</time>
+          <p>🎤 I presented our paper, “<a href="https://arxiv.org/abs/2412.15299">LAMA-UT: Language Agnostic Multilingual ASR through Orthography Unification and Language-Specific Transliteration</a>”, at <strong>AAAI 2025</strong> in Philadelphia, Pennsylvania, USA — as an <strong>oral presentation</strong>. It was a tremendous honor to deliver my <strong>first first-authored paper as an oral talk</strong>! 🥹✨</p>
+        </li>
+        <li>
+          <time datetime="2024-12-10">Dec 10, 2024</time>
+          <p>📝 <strong>LAMA-UT</strong> has been accepted to <strong>AAAI 2025 as an oral presentation</strong>!</p>
+        </li>
+        <li>
+          <time datetime="2024-04-16">Apr 16, 2024</time>
+          <p>✨ Attended <strong>ICASSP 2024</strong> in Seoul. As my first major academic conference, it was an inspiring experience to meet leading researchers and see the latest advancements in our field!</p>
+        </li>
+      </ul>
+    </main>
+  </div>
+  <script src="/js/site.js"></script>
+</body>
+</html>
